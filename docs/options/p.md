@@ -35,12 +35,12 @@ Usage: p[=68abcdDfiImrstuxz] [arg|len] [@addr]
 
 - [ `ph[?][=|hash] ([len])` calculate hash for a block](/options/p/ph-hash)
 
-- [ `p[iI][df] [len]` print N ops/bytes (f=func) (see pi? and pdi)](/options/p/p-iI)
+- [ `p[iI][df] [len]` print N ops/bytes (f=func) (see pi? and pdi)](/options/p/p-ii)
 	> 🚀 Use `pi` to print opcodes only [asciinema](https://asciinema.org/a/Ygnzj7RSt7JJ3orx8DvonLpIW)
 
 - [ `pj[?] [len]` print as indented JSON](/options/p/pj-len)
 
-- [ `p[kK] [len]` print key in randomart (K is for mosaic)](/options/p/p-k_capK)
+- [ `p[kK] [len]` print key in randomart (K is for mosaic)](/options/p/p-k_capk)
 
 - [ `pm[?] [magic]` print libmagic data (see pm? and /m?)](/options/p/pm-magic)
 
