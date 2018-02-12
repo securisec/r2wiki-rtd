@@ -1,78 +1,162 @@
-# Radare2 Wiki
-![repo size](https://img.shields.io/github/repo-size/securisec/radare2_wiki.svg) 
+<!-- TITLE: r2wiki --> 
+# Radare2 wiki
+![R 2 Logo 3](/uploads/r-2-logo-3.png "R 2 Logo 3"){.pagelogo}
+> This is an ongoing work in progress and reflects various material obtained while stuying how to use radare2. This wiki is constantly updated. Feel free to tweet to me [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/securisec) if there is a tidbit I can include in here. {.is-warning}
 
-The goal of this wiki is to make a searchable collection of documents which can be used to find various use cases and help regarding using r2. This is a live wiki and the 
- goal is to updated frequently. If you have a tip, use case or plugin you would like to suggest, either create an issue, or tweet to me at [@securisec](https://twitter.com/securisec)
 
-This wiki can be used either from the online version, local webapp or from the r2 shell. 
+```text
+All the commands are based (started) with the following Radare version:
+radare2 2.1.0-git 16575 @ linux-x86-64 git.2.0.1-245-g48bfa50
+commit: 48bfa5087bed71be501e4c37933c0fe1298d817e build: 2017-11-14__02:43:49
+Visual cues:
+🚀 Means there is an asciinema
+⭐ Great command to remember
+```
+<br>  
 
-**Make sure to update the local version everytime before using. The wiki is updated frequently**
+![R 2 Learning Curve](/uploads/r-2-learning-curve.png "R 2 Learning Curve"){.align-center}
+## Local web app
+  > To get a local copy of this wiki check out [github](https://github.com/securisec/radare2_wiki) {.is-danger}
+## r2wiki.py
+  > ⭐ [Radare2 wiki can also be used right from the r2 shell. See directions here](./home/r2wiki-python) {.is-danger}
+# Sections
 
-#### Credits:
-Tons of great youtube videos, the radare2 irc channel, twitter, too many to list.
-Wiki is powered by [wiki.js](https://wiki.js.org/) <img src="https://beta.requarks.io/svg/logo.svg" width="48">
+## Console options 😓
+[Radare2 console options :heart_eyes:](./home/options)
 
-## Online
-The wiki is available online at [https://radare2.securisec.com](https://radare2.securisec.com)  
-Both the online version and local version supports full search capability. The online version is always upto date. 
+## Valid architectures and cpu's
+[Valid arch's and cpu's](./home/valid-arch-cpu)
 
-# r2pm installation
-- This wiki can also be installed from r2pm using `r2pm -i r2wiki`
-- Once installed, use inside r2 with `$wiki "some term"`
-- Update inside r2 with `$wiki -u ''`
+## Radare2 Python scripting 🐍
+[Radare2 Python scripting 🐍](./home/radare2-python-scripting)
 
-### Local webapp Installation
-- Install wiki.js by following [these instructions](https://docs.requarks.io/wiki/install)
-- Copy all the files in this repo to the `repo` directory, or run 
-```git clone https://github.com/securisec/radare2_wiki.git repo/``` from inside your wiki directory.
-- Allow some time for the search to finish indexing.
+## Radare2 tools ⚙️
+[Radare2 tools](./home/radare2-tools)
 
-#### Update local installation
-- To update to the latest **(this wiki will be updated frequently :stuck_out_tongue_winking_eye:)**, simply run  
-`git pull origin master` from inside the repo directory.
 
-#### From r2 shell
-- Directions can be found in the [r2wiki.py](https://radare2.securisec.com/home/r2wiki-python)
-> In order for this to work, you need a local copy of the wiki. You can get it from [github](https://github.com/securisec/radare2_wiki)
-- The argument supports regex and the output is in less format
+## Radare Plugins
+[Radare Plugins](./home/radare-plugins)
 
-- Because the output is using less, you can highlight/search using `/` or show only matching lines by using `&`
 
-- /path/to/repo/r2wiki.py needs to be absolute path {.is-warning}
+## Pwn helper
+[Pwn helper](./home/pwn-helper)
 
-- This can be accessed multiple ways. 
-	- Method 1: Set an alias in your `~/.radare2rc` file		
-    ```sh
-    echo '$'wiki="#"'!'"pipe python /path/to/repo/r2wiki.py" >> ~/.radare2rc
-    ```
-	 > Invoke as `$wiki arg`
-	- Method 2: Set an alias from inside r2 shell:
-	```text
-	$wiki=#!pipe python /path/to/r2wiki.py
-	```
-	 > invoke as `$wiki arg`
-	- Method 3: 
-    ```text
-    #!pipe python /path/to/repo/r2wiki.py
-    ```
 
-### Tips for local wiki (applies to wiki.js version 1.0.12)
-To style your local wiki in a manner similar to the online version, add the following to the `/wiki_installation_dir/server/views/layout.pug` under the section marked as `//- JS / CSS`  
- ```css
-     style(type='text/css').
-       .mkcontent {
-         font-family: Arial;
-       }
+## CTF solving / Blogs
+[CTF solving using radare2 / Blogs](./home/ctf-solving-using-radare2)
 
-     style(type='text/css').
-       .mkcontent {
-         font-size: 16px;
-       }
- ```
-To change the search behaviour of your local wiki similar to that of the online version, change the following lines in `server/libs/search.js`
-  ```
-  - Line 73 to 1
-  - Line 78 to 0
-  - Line 88 to 3
-  - Line 175 to 20
-  ```
+
+## Tips
+[Tips](./home/tips)
+
+
+## Code samples
+[Code samples](./home/code-samples)
+
+
+## Debugger help
+[Debugger help](./home/debugger-help)
+
+
+# Analyzing different architectures / platforms
+## Android
+[Android reversing](./analysis/android)
+
+## ARM
+[ARM reversing](./analysis/arm)
+
+## AVR
+[AVR reversing](./analysis/avr)
+
+## Go reversing
+[Go reversing](./analysis/go)
+
+## iOS 
+[iOS reversing](./analysis/ios)
+
+## Macho
+[Macho reversing](./analysis/macho)
+
+## Mips
+[Mips reversing](./analysis/mips)
+## Misc
+[Misc reversing](./analysis/misc)
+
+## Windows
+[Windows reversing](./analysis/windows)
+
+# Books / Resources
+
+## Books
+
+  [introduction · Radare2 Book](https://radare.gitbooks.io/radare2book/content/)
+
+  [Introduction · Radare2 Explorations](https://monosource.gitbooks.io/radare2-explorations/content/)
+
+   > _Tutorial 3, memory manipulation is really good_ {.is-info}
+
+  [Plugins · Radare2 Book](https://radare.gitbooks.io/radare2book/content/plugins/plugins.html)
+
+## Cheatsheets
+  [Local copy of cheatsheet (obtained from radare2)](/home/misc/cheatsheet)
+
+  [Radare2 Debugger Complete Cheat Sheet Flashcards | Quizlet](https://quizlet.com/182492323/radare2-debugger-complete-cheat-sheet-flash-cards/)
+
+  [radare/radare2](https://github.com/radare/radare2/blob/master/doc/intro.md)
+
+  [Reference Card · Radare2 Book](https://radare.gitbooks.io/radare2book/content/refcard/intro.html)
+
+## Gui
+
+  [radareorg/cutter](https://github.com/radareorg/cutter)
+
+## Install
+
+  - > If you are one a *nix system, install using github.
+
+  - Pre packaged binaries for windows and other archs. 
+
+    [Pre-packaged binaries](http://radare.mikelloc.com/get/)
+
+## Resources
+[Resources](/home/resources)
+
+## Usage examples
+[Usage examples directly from radare2 git](/home/misc/usage-examples)
+
+## Plugin creation
+[Help regarding plugin creation](https://radare.gitbooks.io/radare2book/content/plugins/plugins.html)
+
+## Downloads
+[Radare2 can be downloaded from here](http://radare.org/r/down.html)
+
+## 📼 Videos
+[Videos](/home/videos)
+
+# Misc_help
+
+## radare twitter feeds
+[Twitter feed](./home/twitter-feed)
+
+## IDA to radare2
+
+  - [radare/radare2ida](https://github.com/radare/radare2ida)
+
+   - _To convert IDA pro .idc or .idb files to be used in radare2, You can use `idc2r.py file.idc > file.r2` to convert IDA database to r2 format. This can then be loaded into radare2 using `. file.r2` inside the radare2 shell. Alternate method is to use `.!idc2r.py < file.idc` inside the radare2 shell_
+		> 🚀 IDA pro .idb files can be converted using `idb2r2.py` [asciinema](https://asciinema.org/a/kTKHNVUa3ocnGhNYCv73Xh4Uk)
+			 - Dependencies: idb `pip install python-idb`
+
+## Radare2 themes
+
+> See previews of all the [Themes](./home/themes) 
+
+> [Theme modification options](/options/e/ec)
+
+## Misc r2 helpers
+[Misc r2 helpers](/home/misc_helpers)
+	
+
+## **IRC: irc.freenode.net #radare** 
+
+[radare (@radareorg) | Twitter](https://twitter.com/radareorg)
+
