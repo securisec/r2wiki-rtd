@@ -68,7 +68,7 @@ pages:
     - '/': options/search.md
     - c: options/search/c.md
     - C: options/search/capc.md
-    - R: options/search/cap_r.md
+    - R: options/search/capr.md
     - r: options/search/r.md
     - x: options/search/x.md
     - '\': options/pluginsslash.md
