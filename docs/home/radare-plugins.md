@@ -7,7 +7,7 @@
 > Sometimes, a plugin installation using r2pm will fail with a Directory nonexistant error. To prevent this, simply run `mkdir -p $HOME/.config/radare2/prefix/bin/` (on Ubuntu)
 
 ## diaphora (binary diffing)
-   > _Binary diffing powered by diaphora (originally for IDA Pro)_ {.is-info}
+   > _Binary diffing powered by diaphora (originally for IDA Pro)_
 
   [radare/diaphora](https://github.com/radare/diaphora)
 	[](https://www.youtube.com/watch?v=dAwXrUKaUsw){.youtube}

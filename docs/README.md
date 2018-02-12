@@ -1,6 +1,8 @@
 # Radare2 Wiki
 ![repo size](https://img.shields.io/github/repo-size/securisec/radare2_wiki.svg)
 [![Documentation](https://img.shields.io/badge/docs-latest-brightgreen.svg)](http://r2wiki.readthedocs.io/en/latest/)
+[![Read the Docs](https://img.shields.io/readthedocs/r2wiki.svg)]()
+[![Twitter Follow](https://img.shields.io/twitter/follow/securisec.svg?style=social&label=Follow)]()
 
 The goal of this wiki is to make a searchable collection of documents which can be used to find various use cases and help regarding using r2. This is a live wiki and the 
  goal is to updated frequently. If you have a tip, use case or plugin you would like to suggest, either create an issue, or tweet to me at [@securisec](https://twitter.com/securisec)
@@ -41,7 +43,7 @@ Both the online version and local version supports full search capability. The o
 
 - Because the output is using less, you can highlight/search using `/` or show only matching lines by using `&`
 
-- /path/to/repo/r2wiki.py needs to be absolute path {.is-warning}
+- /path/to/repo/r2wiki.py needs to be absolute path 
 
 - This can be accessed multiple ways. 
 	- Method 1: Set an alias in your `~/.radare2rc` file		

@@ -8,9 +8,9 @@ Usage: P[?osi] [file]Project management
 ```
 
 
-> NOTE: See 'e??prj.' {.is-info}
+> NOTE: See 'e??prj.'
 
-> NOTE: project are stored in ~/.config/radare2/projects {.is-info}
+> NOTE: project are stored in ~/.config/radare2/projects
 
 - **`Pc [file]`** show project script to console
 - **`Pd [file]`** delete project

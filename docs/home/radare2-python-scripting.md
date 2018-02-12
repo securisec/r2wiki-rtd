@@ -3,7 +3,7 @@
 # Radare2 Python scripting
 ## r2pipe
 - [Sample scripts could be found here](https://github.com/radare/radare2-r2pipe/tree/master/python/examples)
--  > Python: r2pipe `pip install r2pipe` {.is-danger}
+-  > Python: r2pipe `pip install r2pipe` 
 
 ## Basic usage
 
@@ -114,7 +114,7 @@ r.cmd('dor arg1=some_arg ...')
 > `dor` will take any keypair that can be passed via rarun2
 
 ## radare2-ctypes
-> pip install radare2-ctypes [radare2 ctypes bindings](https://pypi.python.org/pypi/radare2-ctypes) {.is-danger}
+> pip install radare2-ctypes [radare2 ctypes bindings](https://pypi.python.org/pypi/radare2-ctypes)
 
 ```python
 from r2.r_core import *

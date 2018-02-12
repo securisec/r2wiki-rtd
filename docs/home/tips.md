@@ -44,7 +44,7 @@
 
 
 ## **Tips from fortunes**
-> These tips are from the radare2 fortunes {.is-info}
+> These tips are from the radare2 fortunes 
 
 - Add comments using the `;` key in visual mode or the `CC` command from the radare2 shell
 - Add custom Have you setup your ~/.radare2rc today?

@@ -2,9 +2,9 @@
 
 #  **`V`** Visual mode
 
-> **(V! = panels, VV = fcngraph, VVV = callgraph)**  {.is-info}
+> **(V! = panels, VV = fcngraph, VVV = callgraph)** 
 
-> [Visual mode help](/options/capv/visual-mode) {.is-danger}
+> [Visual mode help](/options/capv/visual-mode) 
 
 
 ## **Tips**

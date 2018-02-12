@@ -7,7 +7,7 @@
 Usage: dt Trace commands
 ```
 
-> To enable tracing, set `e asm.trace=1; e dbg.trace=1` {.is-info}
+> To enable tracing, set `e asm.trace=1; e dbg.trace=1` 
 
 - **`dt`** List all traces
 - **`dt [addr]`** Show trace info at address

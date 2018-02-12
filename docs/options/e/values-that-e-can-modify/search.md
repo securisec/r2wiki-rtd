@@ -12,7 +12,7 @@
 	> 🚀 `search.from` and `search.to` can be used to set search boundaries. Helpful when searching inside a function only. [asciinema](https://asciinema.org/a/ocs63PnJwuto9e0VzCQXX1q4V)
 - **`search.in`** Specify search boundaries _Default is io.maps_
 	> Example: `e search.in = dbg.maps`
-	{.is-info}
+	
 
 	> To see available options, use `e search.in=?` Available sections are:
 			- raw

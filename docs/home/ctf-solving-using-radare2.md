@@ -10,11 +10,11 @@
 - [BinaryStudio](https://binarystud.io/googlectf-2017-inst-prof-152-final-value.html)
 
 	> *Google CTF 2017 qualifier PWN challenge* 
-	{.is-info}
+	
 
 - [Reverse TUCTF - Unknown](https://teamrocketist.github.io/2017/11/27/Reverse-TUCTF-Unknown/)
 
-	> *TUCTF 2017 Unknown writeup. This is an example of brute forcing strings based on a returned true statement using by patching on the fly* {.is-warning}
+	> *TUCTF 2017 Unknown writeup. This is an example of brute forcing strings based on a returned true statement using by patching on the fly*
 
 - [Write-ups from RHME3 pre-qualifications at RADARE2 conference - Riscure](https://www.riscure.com/blog/write-ups-rhme3-pre-qualifications-radare2-conference/)
 	> _Three different writeups for the same challenge all using radare2_
@@ -35,6 +35,6 @@
 
 - [34c4 m0rph](https://www.sigflag.at/blog/2017/writeup-34c3ctf-m0rph/)
 - [Intro to r2 Insinuator](https://insinuator.net/2016/08/reverse-engineering-with-radare2-intro/)
-- [Linux malware reversing](https://medium.com/@jacob16682/linux-malware-analysis-why-homebrew-encryption-is-bad-48e349b252f9)
+- [Linux Malware Analysis — Why Homebrew Encryption is Bad](https://medium.com/@jacob16682/linux-malware-analysis-why-homebrew-encryption-is-bad-48e349b252f9)
 - [Redvelvet codegate 2017 r2+angr+ida :(](https://github.com/Brandon-Everhart/CTF-Writeups/tree/master/2018/Codegate/Reversing/RedVelvet)
 - [Ioli crackme writeups (various)](https://moveax.me/crackme0x06/)

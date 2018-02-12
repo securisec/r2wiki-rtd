@@ -23,7 +23,7 @@ To update, use -u ''
 ### Dependencies
 - `python pygments`
 - `pip install -U pygments`
-> NOTE: make sure your pygments is upto date for {.is-danger}
+> NOTE: make sure your pygments is upto date for 
 ### From r2pm
 - r2pm -i r2wiki
 ### Manual installation
@@ -34,7 +34,7 @@ Access the radare2 wiki from inside the r2 shell
 
 > Because the output is using less, you can highlight/search using `/` or show only matching lines by using `&`
 
-> /path/to/repo/r2wiki.py needs to be absolute path {.is-warning}
+> /path/to/repo/r2wiki.py needs to be absolute path 
 
 - This can be accessed multiple ways. 
 	- Method 1: Set an alias in your `~/.radare2rc` file		
