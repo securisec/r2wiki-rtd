@@ -11,7 +11,7 @@ Usage: dm # Memory maps commands
 - `dm` List memory maps of target process
   - Screenshot
 
-    <img src="/uploads/small-d/dm.png" width="50%">
+    ![]("/uploads/small-d/dm.png) {: height="50%" width="50%"}
 
 - `dm address size` Allocate <size> bytes at <address> (anywhere if address is -1) in child process
 - `dm=` List memory maps of target process (ascii-art bars)

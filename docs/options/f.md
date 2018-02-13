@@ -29,7 +29,7 @@ Usage: f [?] [flagname] # Manage offset-name flags
 - `f= [glob]` list range bars graphics with flag offsets and sizes
   - Screenshot
 
-    <img src="/uploads/small-f/f-equals.png" width="50%">
+    ![](/uploads/small-f/f-equals.png){: height="50%" width="50%"}
 
 - `fa [name] [alias]` alias a flag to evaluate an expression
 - `fb [addr]` set base address for new flags

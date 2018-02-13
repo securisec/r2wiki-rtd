@@ -23,7 +23,7 @@ modifier:
 
   - Screenshot
 
-    <img src="/uploads/grep-hud.png width="50%">
+    ![](/uploads/grep-hud.png){: height="50%" width="50%"}
 
 
 - `&` all words must match to grep the line

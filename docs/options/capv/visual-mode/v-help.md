@@ -12,7 +12,7 @@
 - `??` show the user-friendly hud
   - Screenshot
 
-    <img src="/uploads/v-help/question-question-hud.png" width="30%">
+    ![](/uploads/v-help/question-question-hud.png) {: height="50%" width="50%"}
 
   > _Makes it really easy to do various tasks in visual mode. This is different from the `_` HUD mode_
 - `$` toggle asm.pseudo
@@ -23,7 +23,7 @@
 - `_` enter the flag/comment/functions/.. hud (same as VF_)
   - Screenshot
 
-    <img src="/uploads/v-help/underscore-hud.png" width="30%">
+    ![](/uploads/v-help/underscore-hud.png) {: height="50%" width="50%"}
 
 - `=` set cmd.vprompt (top row)
 - `|` set cmd.cprompt (right column)
@@ -42,7 +42,7 @@
 - `a` assemble code
 - `A` visual Assembler
 - `b` browse symbols, flags, configurations, classes, ...
-	<img src="/uploads/v-help/visual-b.png" width="25%">
+	![](/uploads/v-help/visual-b.png) {: height="50%" width="50%"}
 - `B` toggle breakpoint
 - `c/C` toggle (c)ursor and (C)olors
   > _Use - or + to increment or decrement opcode value while in cursor c mode_
@@ -94,7 +94,7 @@
 - `xX` show xrefs/refs of current function from/to data/code
   - Screenshot
 
-    <img src="/uploads/cap-v/x-xref.png" width="50%">
+    ![](/uploads/cap-v/x-xref.png) {: height="50%" width="50%"}
 
 - `yY` copy and paste selection
 - `z` fold/unfold comments in disassembly
@@ -109,5 +109,5 @@
 ## Custom visual mode
 - Pressing the `=` sign inside visual mode brings up cmd.vprompt. Any command executed in this prompt shows up at the top of the visual mode.
 - Pressing the `|` sign inside visual mode brings up cmd.cprompt. Any command executed in this prompt shows up at the right of the visual mode.
-	<img src="/uploads/v-help/custom-visual-mode.png" width="50%">
+	![](/uploads/v-help/custom-visual-mode.png) {: height="50%" width="50%"}
 	> The red boxing is showing the command `pxr @$$!50` while the green box is show the output of `dr`

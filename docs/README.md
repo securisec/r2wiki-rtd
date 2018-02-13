@@ -13,7 +13,7 @@ Make sure to update the local version everytime before using. The wiki is update
 
 #### Credits:
 Tons of great youtube videos, the radare2 irc channel, twitter, too many to list.
-Wiki is powered by [wiki.js](https://wiki.js.org/) <img src="https://beta.requarks.io/svg/logo.svg" width="48">
+Wiki is powered by [wiki.js](https://wiki.js.org/) ![](https://beta.requarks.io/svg/logo.svg){: height="50%" width="50%"}
 
 ## Online
 The wiki is available online at [readthedocs http://r2wiki.readthedocs.io/en/latest/](http://r2wiki.readthedocs.io/en/latest/)
