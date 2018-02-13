@@ -35,7 +35,7 @@
 
 ## Hex view `V`
 
-  - [ `V` Help](/options/capv/visual-mode) 
+  - [ `V` Help](/options/capv/visual-mode) {: height="50%" width="50%"}
 
   - After loading hex view, use `p` to see this view
 
