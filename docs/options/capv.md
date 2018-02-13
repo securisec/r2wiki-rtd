@@ -1,13 +1,13 @@
 <!-- V -->
 
-#  **`V`** Visual mode
+#  `V` Visual mode
 
-> **(V! = panels, VV = fcngraph, VVV = callgraph)** 
+> (V! = panels, VV = fcngraph, VVV = callgraph) 
 
 > [Visual mode help](/options/capv/visual-mode) 
 
 
-## **Tips**
+## Tips
   > You can use `h, j, k, l` or `H, G, K, L` to move inside the visual mode, or `TAB` to navigate
 
   > Use `c` to toggle cursor mode.
@@ -42,7 +42,7 @@
     <img src="../../../../../../uploads/cap-v/hex-view.png" width="50%">
 
   - Pressing `p` twice in this mode will show the stack and the registers in the same view. This is very helpful during debugging.
-  - In this mode, you can navigate and scroll through the stack/registers/assembly by using `c` (cursor) and **TAB**
+  - In this mode, you can navigate and scroll through the stack/registers/assembly by using `c` (cursor) and TAB
 
     <img src="../../../../../../uploads/cap-v/hex-view-cap-p" width="50%>
 

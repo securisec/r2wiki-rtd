@@ -4,7 +4,7 @@
 [![Documentation](https://img.shields.io/badge/docs-latest-brightgreen.svg)](http://r2wiki.readthedocs.io/en/latest/)
 [![Read the Docs](https://img.shields.io/readthedocs/r2wiki.svg)]()
 [![Twitter Follow](https://img.shields.io/twitter/follow/securisec.svg?style=social&label=Follow)](https://twitter.com/securisec)
-> This is an ongoing work in progress and reflects various material obtained while stuying how to use radare2. This wiki is constantly updated. Feel free to tweet to me [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/securisec) if there is a tidbit I can include in here. {.is-warning}
+- > This is an ongoing work in progress and reflects various material obtained while stuying how to use radare2. This wiki is constantly updated. Feel free to tweet to me [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/securisec) if there is a tidbit I can include in here. {.is-warning}
 
 
 ```text
@@ -19,9 +19,9 @@ Visual cues:
 
 ![R 2 Learning Curve](/uploads/r-2-learning-curve.png "R 2 Learning Curve"){.align-center}
 ## Local web app
-  > To get a local copy of this wiki check out [github](https://github.com/securisec/radare2_wiki) {.is-danger}
+  - > To get a local copy of this wiki check out [github](https://github.com/securisec/radare2_wiki) {.is-danger}
 ## r2wiki.py
-  > ⭐ [Radare2 wiki can also be used right from the r2 shell. See directions here](./home/r2wiki-python) {.is-danger}
+  - > ⭐ [Radare2 wiki can also be used right from the r2 shell. See directions here](./home/r2wiki-python) {.is-danger}
 # Sections
 
 ## Console options 😓
@@ -96,7 +96,7 @@ Visual cues:
 
   [Introduction · Radare2 Explorations](https://monosource.gitbooks.io/radare2-explorations/content/)
 
-   > _Tutorial 3, memory manipulation is really good_ {.is-info}
+   - > _Tutorial 3, memory manipulation is really good_ {.is-info}
 
   [Plugins · Radare2 Book](https://radare.gitbooks.io/radare2book/content/plugins/plugins.html)
 
@@ -146,20 +146,20 @@ Visual cues:
   - [radare/radare2ida](https://github.com/radare/radare2ida)
 
    - _To convert IDA pro .idc or .idb files to be used in radare2, You can use `idc2r.py file.idc > file.r2` to convert IDA database to r2 format. This can then be loaded into radare2 using `. file.r2` inside the radare2 shell. Alternate method is to use `.!idc2r.py < file.idc` inside the radare2 shell_
-		> 🚀 IDA pro .idb files can be converted using `idb2r2.py` [asciinema](https://asciinema.org/a/kTKHNVUa3ocnGhNYCv73Xh4Uk)
+		- > 🚀 IDA pro .idb files can be converted using `idb2r2.py` [asciinema](https://asciinema.org/a/kTKHNVUa3ocnGhNYCv73Xh4Uk)
 			 - Dependencies: idb `pip install python-idb`
 
 ## Radare2 themes
 
-> See previews of all the [Themes](./home/themes) 
+- > See previews of all the [Themes](./home/themes) 
 
-> [Theme modification options](/options/e/ec)
+- > [Theme modification options](/options/e/ec)
 
 ## Misc r2 helpers
 [Misc r2 helpers](/home/misc_helpers)
 	
 
-## **IRC: irc.freenode.net #radare** 
+## IRC: irc.freenode.net #radare 
 
 [radare (@radareorg) | Twitter](https://twitter.com/radareorg)
 
