@@ -41,7 +41,7 @@ modifier:
 - `:[s]-[e]` show lines s-e
 - `..` internal 'less'
 
-   > _Example: `pdf ~..` 
+   - > _Example: `pdf ~..` 
 
 - `...` 🚀 internal 'hud' (like V_) [asciinema](https://asciinema.org/a/KdW2Lh8hjyHytcqGnyN9bXNDY)
    - > This is take any commands output and overlay a HUD on top of it for string type searching. Example: `pdf ~...` and then search for call

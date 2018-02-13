@@ -13,7 +13,7 @@ Make sure to update the local version everytime before using. The wiki is update
 
 #### Credits:
 Tons of great youtube videos, the radare2 irc channel, twitter, too many to list.
-Wiki is powered by [wiki.js](https://wiki.js.org/) ![](https://beta.requarks.io/svg/logo.svg)
+Wiki is powered by https://wiki.js.org/
 
 ## Online
 The wiki is available online at [readthedocs http://r2wiki.readthedocs.io/en/latest/](http://r2wiki.readthedocs.io/en/latest/)
@@ -38,7 +38,7 @@ Both the online version and local version supports full search capability. The o
 
 #### From r2 shell
 - Directions can be found in the [r2wiki.py](https://radare2.securisec.com/home/r2wiki-python)
-    - > In order for this to work, you need a local copy of the wiki. You can get it from [github](https://github.com/securisec/radare2_wiki)
+- > In order for this to work, you need a local copy of the wiki. You can get it from [github](https://github.com/securisec/radare2_wiki)
 - The argument supports regex and the output is in less format
 
 - Because the output is using less, you can highlight/search using `/` or show only matching lines by using `&`

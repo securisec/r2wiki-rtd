@@ -9,9 +9,9 @@
 - `io.buffer.from` Lower address of buffered cache _Default is 0_
 - `io.buffer.to` Higher address of buffered cache _Default is 0_
 - `io.cache` Change both of io.cache.{read,write} _Default is false_
-  > _This can be changed if the binary is in read only mode and ESIL or emulation is desired_
+  - > _This can be changed if the binary is in read only mode and ESIL or emulation is desired_
 
-  > _This allows writing on memory if the file wasnt opened in write mode_
+  - > _This allows writing on memory if the file wasnt opened in write mode_
 - `io.cache.read` Enable read cache for vaddr (or paddr when io.va=0) _Default is false_
 - `io.cache.write` Enable write cache for vaddr (or paddr when io.va=0) _Default is false_
 - `io.exec` See !!r2 -h~-x _Default is true_

@@ -5,13 +5,13 @@
 - `cfg.bigendian` Use little (false) or big (true) endianness _Default is false_
 - `cfg.debug` Debugger mode _Default is false_
 - `cfg.editor` Select default editor program _Default is vi_
-  > _Change this to your favorite editor using `e cfg.editor=editor` . Editor could be nano, subl (sublime command line) etc_
+  - > _Change this to your favorite editor using `e cfg.editor=editor` . Editor could be nano, subl (sublime command line) etc_
 - `cfg.fortunes` If enabled show tips at start _Default is true_
 - `cfg.fortunes.clippy` Use ?E instead of ?e _Default is false_
 
   - Custom clippy message
 
-   > _Can have some fun with this by setting this on ~/.radare2rc. Example: `?E your_message_here`_ 
+   - > _Can have some fun with this by setting this on ~/.radare2rc. Example: `?E your_message_here`_ 
 
       
 ```text

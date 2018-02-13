@@ -2,7 +2,7 @@
 
 # Valid architecture and cpu
 ## rasm2 -L (list of valid architectures and bits)
-  > A list of valid architectures can also be obtained using `e asm.arch=?` 
+  - > A list of valid architectures can also be obtained using `e asm.arch=?` 
 	
 	
   ```text

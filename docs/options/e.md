@@ -8,9 +8,9 @@ Usage: e [var[=value]]Evaluable vars
 ```
 
 
-> 🚀 [Values that `e` can modify](/options/e/Values-that-e-can-modify) [asciinema](https://asciinema.org/a/AEden7PwhG0w3gcgvhB5qnEg7) 
+- > 🚀 [Values that `e` can modify](/options/e/Values-that-e-can-modify) [asciinema](https://asciinema.org/a/AEden7PwhG0w3gcgvhB5qnEg7) 
 
-> Use `Ve` to enter Visual mode to modify `e` values, or use `e??[key name]` to get a description. To get valid values, use `=?`. Example `e dbg.bep =?`
+- > Use `Ve` to enter Visual mode to modify `e` values, or use `e??[key name]` to get a description. To get valid values, use `=?`. Example `e dbg.bep =?`
 
 - `e?asm.bytes` show description
 - `e??` list config vars with description

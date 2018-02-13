@@ -2,7 +2,7 @@
 # Pwn helper
 
 ## ROP
-  > The r2pm install seems to be broken. Use this method instead 
+  - > The r2pm install seems to be broken. Use this method instead 
 
 - Clone the rarop repository 
 	[rarop github](https://github.com/jpenalbae/rarop)

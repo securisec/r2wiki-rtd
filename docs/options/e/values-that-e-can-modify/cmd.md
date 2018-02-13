@@ -16,14 +16,14 @@
 - `cmd.gprompt` Graph visual prompt commands
 - `cmd.graph` Command executed by 'agv' command to view graphs _Default is agf_
 - `cmd.hit` Run when a search hit is found
-  > _Run a command/action when a search hit is found_
+  - > _Run a command/action when a search hit is found_
 - `cmd.hitinfo` Show info when a tracepoint/breakpoint is hit _Default is 1_
 - `cmd.log` Every time a new T log is added run this command
 - `cmd.open` Run when file is opened
 - `cmd.prompt` Prompt commands
 - `cmd.repeat` Empty command an alias for '..' (repeat last command) _Default is false_
 - `cmd.stack` Command to display the stack in visual debug mode
-	> 🚀 Use a macro to change to an alternate view of the stack `(changeStackView , e cmd.stack = pxr 40@r:SP, e dbg.slow=false)` [asciinema](https://asciinema.org/a/GaXGDXx0qgmsSGMlxuwnXOCNp) _From @NistelbergerK_
+	- > 🚀 Use a macro to change to an alternate view of the stack `(changeStackView , e cmd.stack = pxr 40@r:SP, e dbg.slow=false)` [asciinema](https://asciinema.org/a/GaXGDXx0qgmsSGMlxuwnXOCNp) _From @NistelbergerK_
 - `cmd.times` Run when a command is repeated (number prefix)
 - `cmd.visual` Replace current print mode
 - `cmd.vprompt` Visual prompt commands

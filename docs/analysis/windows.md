@@ -10,7 +10,7 @@
 	- [Python meson build](https://github.com/mesonbuild/meson)
 	- [Ninja](https://ninja-build.org/)
 
-- > To compile radare2, simply run `meson.bat`
+> To compile radare2, simply run `meson.bat`
 - `meson.bat -p` outputs a Visual Studio project file
 
 ## Config file
@@ -21,7 +21,7 @@ To get the latest installer, [go to this site](https://ci.appveyor.com/project/r
 
 # DLL support
 ## dll support using rarun2
-- > Syntax is `rarun2.exe runlib=[path\to\library] runlib.fcn=[function_name] [arg1=argument1 arg2=argument2...]`.
+> Syntax is `rarun2.exe runlib=[path\to\library] runlib.fcn=[function_name] [arg1=argument1 arg2=argument2...]`.
 - Example: `rarun2.exe runlib=C:\Windows\System32\user32.dll runlib.fcn=MessageBoxA arg1=%0 arg2=Body arg3=Title arg4=%1`
 - It should be possible to use a rarun2 profile to debug a dll in this manner. 
 
@@ -29,7 +29,7 @@ To get the latest installer, [go to this site](https://ci.appveyor.com/project/r
 [Snojan analysis](https://medium.com/@jacob16682/snojan-analysis-bb3982fb1bb9)
 
 # PDB support
-- > Helpful: `cabextract` in linux
+> Helpful: `cabextract` in linux
 
 - 🚀 Use `idpi` to show show debug information about a file. [asciinema](https://asciinema.org/a/BOQUwqIJO497zhFDY037uNf6W)
 - Use `idpd` to download available files
