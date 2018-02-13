@@ -23,7 +23,7 @@
   - You can preload r2 inside a process. This is similar to r2frida but native implementation
 	 - > Example: `rarun2 r2preload=yes program=/bin/cat` followed by the kill command that rarun2 generates
 	- Screenshot:
-		![](/uploads/tools/rarun-2-preload.png){: height="50%" width="50%"}
+		![](/uploads/tools/rarun-2-preload.png)
 		 - > The red box indicates the kill command to run in another shell
 	- Available commands inside preload are:
 		

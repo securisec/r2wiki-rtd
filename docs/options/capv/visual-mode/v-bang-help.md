@@ -26,7 +26,7 @@ q    - quit, back to visual mode
 > Use `H` or `L` to increase or decrease the size of the panels
 
 # Screenshot
-![](/uploads/v-help/v-bang.png){: height="50%" width="50%"}
+![](/uploads/v-help/v-bang.png)
 
 # Sub menu help
 ## File

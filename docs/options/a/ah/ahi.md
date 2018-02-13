@@ -16,7 +16,7 @@
 
      `ahi s @@=0x080485a3 0x080485ad 0x080485b7` ( `@@=` helps specify multiple offsets).
 
-    ![](/uploads/a-afvd/ahi.png) {: height="50%" width="50%"}
+    ![](/uploads/a-afvd/ahi.png) 
 
     > `ahi` _Forcefully convert value to string_
 

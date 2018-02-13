@@ -9,9 +9,9 @@ Usage: p-[hj] [pieces]bar|json|histogram blocks
 
 
 - `p-` show ascii-art bar of metadata in file boundaries
-	- ![](/uploads/small-p/p-minus.png){: height="50%" width="50%"}
+	- ![](/uploads/small-p/p-minus.png)
 - `p-h` show histogram analysis of metadata per block
-	- ![](/uploads/small-p/p-minus-h.png){: height="50%" width="50%"}
+	- ![](/uploads/small-p/p-minus-h.png)
 - `p-j` show json format
 
 <p hidden>p-</p>

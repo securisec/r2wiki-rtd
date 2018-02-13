@@ -34,7 +34,7 @@ Usage: dr Registers commands
 - `drr` 🚀 Show registers references (telescoping) [asciinema](https://asciinema.org/a/s1bOy1oWQrKMMtPNIJ44Pr0UO)
   - Screenshot
 
-    ![](/uploads/small-d/drr.png){: height="50%" width="50%"}
+    ![](/uploads/small-d/drr.png)
 
 - [ `drs[?]` Stack register states](/options/d/dr/drs)
 
