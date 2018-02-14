@@ -3,7 +3,7 @@
 #  `dmh[?]` Show map of heap
 
 
-```text
+```
 Usage: dmh # Memory map heap
 ```
 
@@ -12,6 +12,6 @@ Usage: dmh # Memory map heap
 - `dmhb[arena_t]` show all bins created for given arena
 - `dmhc*|[arena_t]` show all chunks created in all arenas, or show all chunks created for a given arena_t instance
 - `dmh?` Show map heap help
-    > _Handy for pwning_
+    - > _Handy for pwning_
 
 <p hidden>dmha dmhb dmhc dmh</p>

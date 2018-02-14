@@ -3,12 +3,13 @@
 #  `om[?]` create, list, remove IO maps
 
 
-```text
+```
 Usage: om[-] [arg] # map opened files
 ```
 
 
 - `om` list all defined IO maps
+	- > Can use `om` to check permissions for maps
 - `omq` list all maps and their fds
 - `om*` list all maps in r2 commands format
 - `om=` list all maps in ascii art
