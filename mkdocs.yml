@@ -39,6 +39,7 @@ pages:
     - rarop-install-help: plugins/rarop-install-help.md
     - angr: radare-plugins/angr.md
     - ripr: radare-plugins/ripr.md
+    - r2lldb: radare-plugins/r2lldb.md
   - Resources:
     - r2wiki-python: home/r2wiki-python.md
     - 'CTF solving using radare2': home/ctf-solving-using-radare2.md
