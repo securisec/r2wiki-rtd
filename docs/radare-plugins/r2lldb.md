@@ -1,7 +1,6 @@
 <!-- TITLE: r2lldb -->
 
 # Github README r2lldb
-======
 
 `radare2-(lldb|gdb) integration`
 
@@ -155,3 +154,9 @@ iOS
 The `debugserver` is deployed by XCode in the debugger image. If you have a jailbroken device you can just extract this binary from the dmg and copy it via SSH.
 
 --pancake
+
+# github
+[r2lldb](https://github.com/nowsecure/r2lldb)
+
+# Misc
+[gdb vs lldb cheat sheet](https://kapeli.com/cheat_sheets/LLDB_to_GDB_Command_Map.docset/Contents/Resources/Documents/index)

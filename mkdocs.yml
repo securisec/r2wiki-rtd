@@ -53,6 +53,7 @@ pages:
     - 'Valid arch cpu': home/valid-arch-cpu.md
     - Videos: home/videos.md
     - 'Code samples': home/code-samples.md
+    - 'Cutter': home/cutter.md
   - Misc:
     - themes: home/themes.md
     - twitter-feed: home/twitter-feed.md
