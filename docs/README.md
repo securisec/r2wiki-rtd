@@ -26,7 +26,16 @@ Both the online version and local version supports full search capability. The o
 - Once installed, use inside r2 with `$wiki "some term"`
 - Update inside r2 with `$wiki -u ''`
 
-### Local webapp Installation
+## Local webapp Installation
+
+### mkdocs installation
+- `pip install mkdocs`
+- `git clone https://github.com/securisec/r2wiki-rtd.git`
+- `cd r2wiki-rtd`
+- `mkdocs serve`
+- Open browser to http://localhost:8000
+
+### Wiki.js installation
 - Install wiki.js by following [these instructions](https://docs.requarks.io/wiki/install)
 - Copy all the files in this repo to the `repo` directory, or run 
 ```git clone https://github.com/securisec/radare2_wiki.git repo/``` from inside your wiki directory.
