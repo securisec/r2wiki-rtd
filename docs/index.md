@@ -1,11 +1,7 @@
 <!-- TITLE: r2wiki --> 
 # Radare2 wiki
-![repo size](https://img.shields.io/github/repo-size/securisec/radare2_wiki.svg)
-[![Documentation](https://img.shields.io/badge/docs-latest-brightgreen.svg)](http://r2wiki.readthedocs.io/en/latest/)
-[![Read the Docs](https://img.shields.io/readthedocs/r2wiki.svg)]()
-[![Twitter Follow](https://img.shields.io/twitter/follow/securisec.svg?style=social&label=Follow)](https://twitter.com/securisec)
-
-> This is an ongoing work in progress and reflects various material obtained while stuying how to use radare2. This wiki is constantly updated. Feel free to tweet to me [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/securisec) if there is a tidbit I can include in here. {.is-warning}
+![R 2 Logo 3](/uploads/r-2-logo-3.png "R 2 Logo 3"){.pagelogo}
+> This is an ongoing work in progress and reflects various material obtained while stuying how to use radare2. This wiki is constantly updated. Feel free to tweet to me [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/securisec) if there is a tidbit I can include in here. 
 
 
 ```
@@ -20,9 +16,14 @@ Visual cues:
 
 ![R 2 Learning Curve](/uploads/r-2-learning-curve.png "R 2 Learning Curve"){.align-center}
 ## Local web app
-  - > To get a local copy of this wiki check out [github](https://github.com/securisec/radare2_wiki) {.is-danger}
+  - **Using wiki.js** > To get a local copy of this wiki check out [github](https://github.com/securisec/radare2_wiki)
+  - **Using mkdocs** (Is slightly behind the wiki.js implementation)
+		- `pip install mkdocs`
+		- `git clone https://github.com/securisec/r2wiki-rtd.git`
+		- `cd r2wiki-rtd`
+		- `mkdocs serve`
 ## r2wiki.py
-  - > ⭐ [Radare2 wiki can also be used right from the r2 shell. See directions here](./home/r2wiki-python) {.is-danger}
+  - > ⭐ [Radare2 wiki can also be used right from the r2 shell. See directions here](./home/r2wiki-python)
 # Sections
 
 ## Console options 😓
@@ -97,7 +98,7 @@ Visual cues:
 
   [Introduction · Radare2 Explorations](https://monosource.gitbooks.io/radare2-explorations/content/)
 
-   - > _Tutorial 3, memory manipulation is really good_ {.is-info}
+   - > _Tutorial 3, memory manipulation is really good_
 
   [Plugins · Radare2 Book](https://radare.gitbooks.io/radare2book/content/plugins/plugins.html)
 
@@ -112,7 +113,7 @@ Visual cues:
 
 ## Gui
 
-  [radareorg/cutter](https://github.com/radareorg/cutter)
+  [Cutter](/home/cutter)
 
 ## Install
 
