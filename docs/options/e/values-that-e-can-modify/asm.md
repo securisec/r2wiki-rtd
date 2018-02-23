@@ -7,6 +7,7 @@
 - `asm.armimm` Display # for immediates in ARM _Default is 0_
 - `asm.asciidot` Enable a char filter for string comments that passes through chars in the range 0x20-0x7e and turns the rest into dots (except some control chars) _Default is false_
 - `asm.assembler` Set the plugin name to use when assembling
+- `asm.bbinfo` Show basic block information _Default is false_
 - `asm.bbline` Show empty line after every basic block _Default is false_
 - `asm.bits` Word size in bits at assembler _Default is 64_
 - `asm.bytes` Display the bytes of each instruction _Default is true_
@@ -22,7 +23,7 @@
 - `asm.cmtright` Show comments at right of disassembly if they fit in screen _Default is true_
 - `asm.comments` Show comments in disassembly view _Default is true_
 - `asm.cpu` Set the kind of asm.arch cpu _Default is x86_
-	> Example: `asm.cpu=cortex` when architecture is ARM.
+	- > Example: `asm.cpu=cortex` when architecture is ARM.
 - `asm.cycles` Show CPU-cycles taken by instruction at disassembly _Default is false_
 - `asm.cyclespace` Indent instructions depending on CPU-cycles _Default is false_
 - `asm.decode` Use code analysis as a disassembler _Default is false_
@@ -63,7 +64,7 @@
 - `asm.invhex` Show invalid instructions as hexadecimal numbers _Default is false_
 - `asm.jmphints` Show jump hints [numbers] in disasm _Default is true_
 - `asm.jmpsub` Always substitute jump, call and branch targets in disassembly _Default is false_
-	> `asm.jmpsub` Substitutes targets of jmp, call and branch ops in disassembly based on jump target in RAnalOp structure
+	- > `asm.jmpsub` Substitutes targets of jmp, call and branch ops in disassembly based on jump target in RAnalOp structure
 - `asm.lbytes` Align disasm bytes to left _Default is true_
 - `asm.leahints` Show LEA hints [numbers] in disasm _Default is false_
 - `asm.lines` Show ASCII-art lines at disassembly _Default is true_
@@ -118,4 +119,4 @@
 - `asm.varxs` Show accesses of local variables _Default is false_
 - `asm.xrefs` Show xrefs in disassembly _Default is true_
 
-<p hidden>asm.anal asm.arch asm.armimm asm.asciidot asm.assembler asm.bbline asm.bits asm.bytes asm.bytespace asm.calls asm.capitalize asm.cmtcol asm.cmtflgrefs asm.cmtfold asm.cmtoff asm.cmtpatch asm.cmtrefs asm.cmtright asm.comments asm.cpu asm.cycles asm.cyclespace asm.decode asm.decoff asm.demangle asm.describe asm.dwarf asm.dwarf.abspath asm.dwarf.file asm.emu asm.emuskip asm.emustack asm.emustr asm.emuwrite asm.esil asm.family asm.fcncalls asm.fcnlines asm.features asm.filter asm.flags asm.flagsinbytes asm.flgoff asm.functions asm.hints asm.immstr asm.immtrim asm.indent asm.indentspace asm.invhex asm.jmphints asm.lbytes asm.leahints asm.lines asm.lines.call asm.lines.ret asm.linesout asm.linesright asm.lineswide asm.lineswidth asm.marks asm.maxrefs asm.midcursor asm.middle asm.midflags asm.minicols asm.minvalsub asm.nbytes asm.nodup asm.noisy asm.offset asm.os asm.parser asm.payloads asm.pcalign asm.pseudo asm.reloff asm.reloff.flags asm.relsub asm.section asm.section.col asm.section.sub asm.segoff asm.shortcut asm.size asm.slow asm.stackptr asm.strenc asm.symbol asm.symbol.col asm.syntax asm.tabs asm.tabsoff asm.tabsonce asm.trace asm.tracespace asm.ucase asm.vars asm.varsub asm.varsub_only asm.varsum asm.varxs asm.xrefs asm.strip asm.jmpsub</p>
+<p hidden>asm.anal asm.arch asm.armimm asm.asciidot asm.assembler asm.bbline asm.bits asm.bytes asm.bytespace asm.calls asm.capitalize asm.cmtcol asm.cmtflgrefs asm.cmtfold asm.cmtoff asm.cmtpatch asm.cmtrefs asm.cmtright asm.comments asm.cpu asm.cycles asm.cyclespace asm.decode asm.decoff asm.demangle asm.describe asm.dwarf asm.dwarf.abspath asm.dwarf.file asm.emu asm.emuskip asm.emustack asm.emustr asm.emuwrite asm.esil asm.family asm.fcncalls asm.fcnlines asm.features asm.filter asm.flags asm.flagsinbytes asm.flgoff asm.functions asm.hints asm.immstr asm.immtrim asm.indent asm.indentspace asm.invhex asm.jmphints asm.lbytes asm.leahints asm.lines asm.lines.call asm.lines.ret asm.linesout asm.linesright asm.lineswide asm.lineswidth asm.marks asm.maxrefs asm.midcursor asm.middle asm.midflags asm.minicols asm.minvalsub asm.nbytes asm.nodup asm.noisy asm.offset asm.os asm.parser asm.payloads asm.pcalign asm.pseudo asm.reloff asm.reloff.flags asm.relsub asm.section asm.section.col asm.section.sub asm.segoff asm.shortcut asm.size asm.slow asm.stackptr asm.strenc asm.symbol asm.symbol.col asm.syntax asm.tabs asm.tabsoff asm.tabsonce asm.trace asm.tracespace asm.ucase asm.vars asm.varsub asm.varsub_only asm.varsum asm.varxs asm.xrefs asm.strip asm.jmpsub asm.bbinfo</p>
