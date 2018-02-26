@@ -21,6 +21,8 @@
 - `dbg.follow` Follow program counter when pc > core->offset + dbg.follow _Default is 32_
 - `dbg.follow.child` Continue tracing the child process on fork. By default the parent process is traced _Default is false_
 - `dbg.forks` Stop execution if fork() is done (see dbg.threads) _Default is false_
+- `dbg.funcarg` Display arguments to function call in visual mode _Default is false_ [source](https://github.com/radare/radare2/issues/9349#issuecomment-368015838)
+	- > To use `dbg.funcarg`, step into a call which in `Vpp` visual mode. [asciinema](https://asciinema.org/a/d6lfoD7s4LSqY0tx1z7nO0IYQ)
 - `dbg.gdb.page_size` Page size on gdb target (useful for QEMU) _Default is 0x00001000_
 - `dbg.gdb.retries` Number of retries before gdb packet read times out _Default is 10_
 - `dbg.hwbp` Set HW or SW breakpoints _Default is 0_
@@ -28,7 +30,7 @@
 - `dbg.malloc` Choose malloc structure parser _Default is jemalloc_
 - `dbg.profile` Path to RRunProfile file
 	- > 🚀 Can use dgb.profile to pass multiple args to a debugged binary. [asciinema](https://asciinema.org/a/COJ7JEDbNgESV7XZ7oeQlpjAH)
-- `dbg.slow` Show stack and regs in visual mode in a slow but verbose mode _Default is false_
+- `dbg.slow` Show stack and regs in visual mode in a slow but verbose mode _Default is false_ 
 	- > Set `e dbg.slow=1` to get a more PEDA like visual debugging. `Vpp`
 - `dbg.status` Set cmd.prompt to '.dr*' or '.dr*;drd;sr PC;pi 1;s-' _Default is false_
 - `dbg.swstep` Force use of software steps (code analysis+breakpoint) _Default is false_
