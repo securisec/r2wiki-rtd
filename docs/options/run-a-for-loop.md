@@ -1,9 +1,3 @@
-R2WIKI
-@@ Run A For Loop
-DISCARD
-SAVE CHANGES
-|||||
-
 <!-- TITLE: @@ Run A For Loop -->
 #  `@@` Run a for loop
 ​
@@ -24,15 +18,12 @@ Repeat a command over a list of offsets
 - `x @@t` run 'x' on all threads (see dp)
 - `x @@b` run 'x' on all basic blocks of current function (see afb)
 - `x @@i` run 'x' on all instructions of the current function (see pdr)
+- `x @@iS` run 'x' on all sections adjusting blocksize
 - `x @@f` run 'x' on all functions (see aflq)
 - `x @@f:write` run 'x' on all functions matching write in the name
 - `x @@s:from to step` run 'x' on all offsets from, to incrementing by step
 - `x @@c:cmd` the same as @@=`` without the backticks
 - `x @@=pdf~call[0]` run 'x' at every call offset of the current function
   - > 🚀⭐ `@@=` can be used to loop over the output of a command and run another command against it. [asciinema](https://asciinema.org/a/1Qj5SAUKbwA7lEzxsYCx6BKaL)
-​
-​
+
 <p hidden>search and replace</p>
-Powered by Wiki.js.
-Home
-Return to top
