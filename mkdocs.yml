@@ -80,6 +80,7 @@ pages:
     - '(': options/macros.md
     - '|': options/pipe.md
     - '-': options/dash.md
+    - '>': options/redirection.md
     - '?': options/helpevaluate.md
     - coreplugins: options/evaluate/coreplugins.md
     - 'V': options/helpevaluate/cap-v.md
