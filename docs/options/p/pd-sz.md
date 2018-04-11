@@ -26,12 +26,13 @@ Usage: p[dD][ajbrfils] [sz] [arch] [bits] # Print Disassembly
 - `pdj` disassemble to json
 - `pdk` disassemble all methods of a class 
 - `pdl` 🚀 show instruction sizes [asciinema](https://asciinema.org/a/VqcVh8H731bmhBoLNwv21zqDF)
+- `pdp`        disassemble by following pointers to read ropchains
 - `pdr` 🚀 recursive disassemble across the function graph [asciinema](https://asciinema.org/a/qbatqGNhB5Zmvr1VzmsEB7TRo)
 - `pdR` 🚀 recursive disassemble block size bytes without analyzing functions [asciinema](https://asciinema.org/a/gpiEMqW1aUsLnPprBeCjcMBlS)
 	- > `pdR` command that doesnt requires previous analaysis and just follow non-conditional jumps
 - `pds[?]` 🚀 disassemble summary (strings, calls, jumps, refs) (see pdsf and pdfs) [asciinema](https://asciinema.org/a/pUcz5MwdofZbJrxzUIrZekH5z)
   - > `pds` _Can be used as either inside function, or assigned an offset `pds @offset[func_name]`_
-
+- `pdsb` pds[bf]  - sumarize N bytes or function (pdfs)
 - `pdsf`  🚀 sumarize N bytes or function (pdfs) [asciinema](https://asciinema.org/a/sT6SJdYI4VqxqqTVcowF21hdk)
 	- > Use `pdsf~str` to get all strings from a function
 - `pdt` disassemble the debugger traces (see atd)
