@@ -127,6 +127,7 @@ pages:
     - 'ara': options/a/ar/ara.md
     - 'as': options/a/as.md
     - 'ax': options/a/ax.md
+    - 'av': options/a/av.md
     - b: options/b.md
     - c: options/c.md
     - cV: options/c/c-capv.md
