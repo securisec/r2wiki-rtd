@@ -12,6 +12,7 @@
 - `afbi`   print current basic block information
 - `afbj`   show basic blocks information in json
 - `afbe bbfrom bbto`   add basic-block edge for switch-cases
+	- > switch/case edges are now also added to graph view via `afbe`
 - `afB [bits]`   define asm.bits for the given function
 
 <p hidden>afbr afb afb+ .afbr afbi afbj afbe afB</p>
