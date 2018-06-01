@@ -211,6 +211,7 @@ pages:
     - fR: options/f/fcapr.md
     - fd: options/f/fd.md
     - fs: options/f/fs.md
+    - ft: options/f/ft.md
     - fz: options/f/fz.md
     - g: options/g.md
     - 'i': options/i.md

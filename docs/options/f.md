@@ -62,11 +62,11 @@ Usage: f [?] [flagname] # Manage offset-name flags
 - [ `fs[?]+-*` manage flagspaces](/options/f/fs)
 
 - `fS[on]` sort flags by offset or name
-- `ft` flag tags [twitter](https://pbs.twimg.com/media/Dc7H-yUWAAAfeg1.jpg:large)
+- [`ft` flag tags](/options/f/ft) [twitter](https://pbs.twimg.com/media/Dc7H-yUWAAAfeg1.jpg:large)
 - `fV[*-] [nkey] [offset]` dump/restore visual marks (mK/'K)
 - `fx[d]` show hexdump (or disasm) of flag:flagsize
 - `fq` list flags in quiet mode
 
 - [ `fz[?][name]` add named flag zone -name to delete. see fz?[name]](/options/f/fz)
 
-<p hidden>f+ f- f= fC fe fe- fg fj fl fla fm fn fo fr fR fs fS fV fx fq fz ff ffs</p>
+<p hidden>f+ f- f= fC fe fe- fg fj fl fla fm fn fo fr fR fs fS fV fx fq fz ff ffs ft</p>
