@@ -73,13 +73,15 @@
 - `asm.lbytes` Align disasm bytes to left _Default is true_
 - `asm.leahints` Show LEA hints [numbers] in disasm _Default is false_
 - `asm.lines` Show ASCII-art lines at disassembly _Default is true_
+- `asm.lines.bb` Show flow lines at jumps _Default is true_
 - `asm.lines.call` Enable call lines _Default is false_
+- `asm.lines.fcn` Show function boundary lines _Default is true_
+- `asm.lines.out` Show out of block lines _Default is true_
 - `asm.lines.ret` Show separator lines after ret _Default is false_
-- `asm.linesout` Show out of block lines _Default is true_
-- `asm.linesright` Show lines before opcode instead of offset _Default is false_
-- `asm.lineswide` Put a space between lines _Default is false_
-- `asm.lineswidth` Number of columns for program flow arrows _Default is 7_
-- `asm.marks` Show marks before the disassembly _Default is true_
+- `asm.lines.right` Show lines before opcode instead of offset _Default is false_
+- `asm.lines.wide` Put a space between lines _Default is false_
+- `asm.lines.width` Number of columns for program flow arrows _Default is 7_
+- `asm.lines.jmp`- `asm.marks` Show marks before the disassembly _Default is true_
 - `asm.maxrefs` Maximum number of xrefs to be displayed as list (use columns above) _Default is 5_
 - `asm.meta` Display the code/data/format conversions in disasm _Default is true_
 - `asm.midcursor` Cursor in visual disasm mode breaks the instruction _Default is false_
@@ -103,6 +105,7 @@
 - `asm.section` Show section name before offset _Default is false_
 - `asm.section.col` Columns width to show asm.section _Default is 20_
 - `asm.section.sub` Show offsets in disasm prefixed with section/map name _Default is false_
+- `asm.seggrn` Segment granularity in bits (x86-16) _Default is 4_
 - `asm.segoff` Show segmented address in prompt (x86-16) _Default is false_
 - `asm.shortcut` Shortcut position (-1, 0, 1) _Default is 1_
 - `asm.size` Show size of opcodes in disassembly (pd) _Default is false_
@@ -125,5 +128,7 @@
 - `asm.varsum` Show variables summary instead of full list in disasm _Default is false_
 - `asm.varxs` Show accesses of local variables _Default is false_
 - `asm.xrefs` Show xrefs in disassembly _Default is true_
+- `asm.xrefs.fold` Maximum number of xrefs to be displayed as list (use columns above) _Default is 5_
+- `asm.xrefs.max` Maximum number of xrefs to be displayed without folding _Default is 20_
 
 <p hidden>asm.anal asm.arch asm.armimm asm.asciidot asm.assembler asm.bbline asm.bits asm.bytes asm.bytespace asm.calls asm.capitalize asm.cmtcol asm.cmtflgrefs asm.cmtfold asm.cmtoff asm.cmtpatch asm.cmtrefs asm.cmtright asm.comments asm.cpu asm.cycles asm.cyclespace asm.decode asm.decoff asm.demangle asm.describe asm.dwarf asm.dwarf.abspath asm.dwarf.file asm.emu asm.emuskip asm.emustack asm.emustr asm.emuwrite asm.esil asm.family asm.fcncalls asm.fcnlines asm.features asm.filter asm.flags asm.flagsinbytes asm.flgoff asm.functions asm.hints asm.immstr asm.immtrim asm.indent asm.indentspace asm.invhex asm.jmphints asm.lbytes asm.leahints asm.lines asm.lines.call asm.lines.ret asm.linesout asm.linesright asm.lineswide asm.lineswidth asm.marks asm.maxrefs asm.midcursor asm.middle asm.midflags asm.minicols asm.minvalsub asm.nbytes asm.nodup asm.noisy asm.offset asm.os asm.parser asm.payloads asm.pcalign asm.pseudo asm.reloff asm.reloff.flags asm.relsub asm.section asm.section.col asm.section.sub asm.segoff asm.shortcut asm.size asm.slow asm.stackptr asm.strenc asm.symbol asm.symbol.col asm.syntax asm.tabs asm.tabsoff asm.tabsonce asm.trace asm.tracespace asm.ucase asm.vars asm.varsub asm.varsub_only asm.varsum asm.varxs asm.xrefs asm.strip asm.jmpsub asm.bbinfo</p>
