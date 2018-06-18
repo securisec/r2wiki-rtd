@@ -68,6 +68,7 @@ pages:
     - '.': options/define.md
     - '=': options/send.md
     - '/': options/search.md
+    - '&': options/task.md
     - c: options/search/c.md
     - C: options/search/capc.md
     - R: options/search/capr.md
@@ -152,6 +153,7 @@ pages:
     - di: options/d/di.md
     - dko: options/d/dk/dko.md
     - dk: options/d/dk.md
+    - dL: options/d/dcapl.md
     - dmh: options/d/dm/dmh.md
     - dmi: options/d/dm/dmi.md
     - dmp: options/d/dm/dmp.md
