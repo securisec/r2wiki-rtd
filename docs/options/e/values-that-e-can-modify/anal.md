@@ -9,7 +9,6 @@
 - `anal.autoname` Automatically set a name for the functions, may result in some false positives _Default is true_
 - `anal.bb.align` Possible space between basic blocks _Default is 0x10_
 - `anal.bb.maxsize` Maximum basic block size _Default is 1024_
-- `anal.bb.split` Use the experimental basic block split for JMPs _Default is true_
 - `anal.brokenrefs` Follow function references as well if function analysis was failed _Default is false_
 - `anal.calls` Make basic af analysis walk into calls _Default is false_
 - `anal.cjmpref` Create references for conditional jumps _Default is false_
@@ -17,6 +16,7 @@
 - `anal.cpu` Specify the anal.cpu to use _Default is x86_
 - `anal.datarefs` Follow data references for code coverage _Default is false_
 - `anal.depth` Max depth at code analysis _Default is 16_
+- `anal.endsize` Adjust function size at the end of the analysis (known to be buggy)
 - `anal.eobjmp` jmp is end of block mode (option) _Default is false_
 - `anal.esil` Use the new ESIL code analysis _Default is false_
 - `anal.fcnprefix` Prefix new function names with this _Default is fcn_
@@ -29,7 +29,7 @@
 -  `anal.in` Specify search boundaries for analysis _Default is io.maps_
 - `anal.jmpabove` Jump above function pointer _Default is true_
 - `anal.jmpref` Create references for unconditional jumps _Default is true_
-- `anal.jmptbl` Analyze jump tables in switch statements _Default is false_
+- `anal.jmptbl` Analyze jump tables in switch statements _Default is true_
   - > `anal.jmptbl` _Helps in analyzing jump tables. Creates a new flags called switch and jmptbl_
   - > `anal.jmptbl` _Set value to true before analysis to analyze jump tables._ [asciinema](https://asciinema.org/a/OPQxOl3OGIb63m2au6KvHXuVZ)
 - `anal.limits` Restrict analysis to address range [anal.from _Default is false_
