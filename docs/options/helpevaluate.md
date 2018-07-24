@@ -30,8 +30,6 @@ Usage: ?[?[?]] expression
 - `?b64[-] [str]` 🚀 encode/decode in base64 [asciinema](https://asciinema.org/a/xV77ADJ1jf2w43Lr9RS9fIy76)
 - `?btw num|(expr) num|(expr) num|(expr)` returns boolean value of a <= b <= c
 - `?B [elem]` show range boundaries like 'e?search.in
-- `?d[.] opcode` 🚀 describe opcode for asm.arch [asciinema](https://asciinema.org/a/F5bPaITylZ1qGTtIh8slo8xr1)
-	- > Use: `?d[.] [opcode]`    to get the description of the opcode
 - `?d*` List all opcode descriptions. Can grep with `~`
 - [`?e[nbgc] string` echo string (nonl, gotoxy, column, bars)](/options/helpevaluate/e)
 - `?ep` print PIE charts
@@ -60,6 +58,7 @@ Usage: ?[?[?]] expression
 - `?u num` get value in human units (KB, MB, GB, TB)
 - `?v eip-0x804800` show hex value of math expr
 - [`?vi rsp-rbp` show decimal value of math expr](/options/helpevaluate/vi)
+- `?vx` ❓
 - [`?V` show library version of r_core](/options/helpevaluate/cap-v)
 - `?w addr` 🚀 show what's in this address (like pxr/pxq does) [asciinema](https://asciinema.org/a/012GFhmRtgZ4dVe0SJRbVUFxH)
 - `?x str` 🚀 returns the hexpair of number or string [asciinema](https://asciinema.org/a/deh7r6WHZ4AOoH8hhfgODrzDR)
