@@ -69,6 +69,7 @@ pages:
     - '=': options/send.md
     - '/': options/search.md
     - '&': options/task.md
+    - A: options/search/capa.md
     - c: options/search/c.md
     - C: options/search/capc.md
     - R: options/search/capr.md
