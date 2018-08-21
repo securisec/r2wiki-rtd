@@ -51,3 +51,5 @@
 - [Reversing MalwareTech challenge with Radare2 and inline assembly](https://prsecurity.org/reversing-malwaretech-challange-with-radare2-and-inline-assembly/)
 - [ROPping to Victory](https://jmpesp.me/rop-emporium-ret2win-with-radare-and-pwntools/)
 - [smcauth defcon qual 2018](https://upbhack.de/posts/defcon-ctf-qualifier-2018-writeup-smcauth/)
+- [Emulating decryption function with radare2](http://www.mien.in/2018/08/14/emulating-decryption-function-with-radare2/)
+- [Hackcon-2018-WarChange](https://zenhack.it/writeups/HackCon2018/2018-08-17-Hackcon-2018-WarChange/)
