@@ -247,6 +247,7 @@ pages:
     - 'pf-nam': options/p/pf-nam.md
     - 'ph-hash': options/p/ph-hash.md
     - 'pj-len': options/p/pj-len.md
+    - 'pxd': options/p/pxd.md
     - pm-magic: options/p/pm-magic.md
     - prg-print: options/p/pr-glx/prg-print.md
     - pr-glx: options/p/pr-glx.md
