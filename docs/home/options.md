@@ -8,6 +8,8 @@
 ## Options
 [ `~` Grep](/options/grep)
 
+`_` print last output
+
 [ `$` Alias](/options/alias)
 
 [ `*` Pointer read/write data/values (see ?v, wx, wv)](/options/pointer)
@@ -65,6 +67,8 @@
 [ `i` Get info about opened file from r_bin](/options/i)
 
 [ `k` Run sdb-query. see k? for help, 'k *', 'k ' ...](/options/k)
+
+`l` list files and directories
 
 [ `L` list, unload load r2 plugins](/options/cap_l)
 

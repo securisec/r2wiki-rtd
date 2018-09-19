@@ -143,6 +143,7 @@ pages:
     - Cf: options/capc/cf.md
     - CS: options/capc/cs.md
     - Cs: options/capc/csmalls.md
+    - Ct: options/capc/t.md
     - d: options/d.md
     - db: options/d/db.md
     - dbt: options/d/dbt.md
@@ -177,6 +178,7 @@ pages:
     - dx: options/d/dx.md
     - e: options/e.md
     - ec: options/e/ec.md
+    - eco: options/e/ec/eco.md
     - ec-values: options/e/ec/ec-values.md
     - ecH: options/e/ec/eccaph.md
     - 'Values e can modify':
@@ -245,6 +247,7 @@ pages:
     - 'pf-format-characters': options/p/pf-nam/pf-format-characters.md
     - 'pf-pf-usage': options/p/pf-nam/pf-pf-usage.md
     - 'pf-nam': options/p/pf-nam.md
+    - 'pF': options/p/pcapf.md 
     - 'ph-hash': options/p/ph-hash.md
     - 'pj-len': options/p/pj-len.md
     - 'pxd': options/p/pxd.md
