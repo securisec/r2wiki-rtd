@@ -277,6 +277,7 @@ pages:
       - capv: options/capv.md
     - t: options/t.md
     - ta: options/t/ta-type.md
+    - tf: options/t/tf.md
     - tc: options/t/tc-cctype.md
     - te: options/t/te-list.md
     - tl: options/t/tl-show.md
