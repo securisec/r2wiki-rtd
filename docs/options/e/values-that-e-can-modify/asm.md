@@ -9,6 +9,7 @@
 - `asm.assembler` Set the plugin name to use when assembling
 - `asm.bbinfo` Show basic block information _Default is false_
 - `asm.bbline` Show empty line after every basic block _Default is false_
+- `asm.bb.middle` Realign disassembly if a basic block starts in the middle of an instruction _Default is true_
 - `asm.bits` Word size in bits at assembler _Default is 64_
 - `asm.bytes` Display the bytes of each instruction _Default is true_
 - `asm.bytespace` Separate hexadecimal bytes with a whitespace _Default is false_
@@ -109,6 +110,8 @@
 - `asm.section` Show section name before offset _Default is false_
 - `asm.section.col` Columns width to show asm.section _Default is 20_
 - `asm.section.sub` Show offsets in disasm prefixed with section/map name _Default is false_
+- `asm.section.perm` Show section permissions in the disasm _Default is false_
+- `asm.section.name` Show section name in the disasm _Default is true_
 - `asm.seggrn` Segment granularity in bits (x86-16) _Default is 4_
 - `asm.segoff` Show segmented address in prompt (x86-16) _Default is false_
 - `asm.shortcut` Shortcut position (-1, 0, 1) _Default is 1_
@@ -124,7 +127,7 @@
 - `asm.tabsoff` tabulate spaces after the offset _Default is 0_
 - `asm.tabsonce` Only tabulate the opcode, not the arguments _Default is false_
 - `asm.tailsub` Replace addresses with prefix .. syntax _Default is false_
-- `asm.trace` Show execution traces for each opcode _Default is false_
+-  🚀`asm.trace` Show execution traces for each opcode _Default is false_ [asciinema](https://asciinema.org/a/jULf3gNxxuJy9CNEaeykuNnGL)
 - `asm.tracespace` Indent disassembly with trace.count information _Default is false_
 - `asm.ucase` Use uppercase syntax at disassembly _Default is false_
 - `asm.usercomments` Show user comments even if asm.comments is false _Default is false_
