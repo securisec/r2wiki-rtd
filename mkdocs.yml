@@ -276,6 +276,7 @@ pages:
       - vv-help: options/capv/visual-mode/vv-help.md
       - capv: options/capv.md
     - t: options/t.md
+    - tu: options/t/tu.md
     - ta: options/t/ta-type.md
     - tf: options/t/tf.md
     - tc: options/t/tc-cctype.md
