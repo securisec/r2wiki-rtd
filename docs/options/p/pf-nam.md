@@ -30,6 +30,7 @@
 - `pf?fmt_name` Show the definition of a named format
 - `pfo` List all format definition files (fdf)
 - `pfo fdf_name` Load a Format Definition File (fdf)
+- `pfq fmt ...`                Quiet print format (do now show address)
 - `pf.fmt_name.field_name=33` Set new value for the specified field in named format
 - `pfv.fmt_name[.field]` Print value(s) only for named format. Useful for one-liners
 - `pfs fmt_name|fmt` Print the size of (named) format in bytes

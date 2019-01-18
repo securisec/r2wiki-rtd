@@ -4,6 +4,7 @@
 
 
 - `aoj N        `  display opcode analysis information in JSON for N opcodes
+- `aoc [cycles]` analyze which op could be executed in [cycles]
 - `aoe N        `  display esil form for N opcodes
 - `aor N        `  display reil form for N opcodes
 - `aos N        `  display size of N opcodes

@@ -45,6 +45,8 @@
 - [key](/options/e/values-that-e-can-modify/key)
 ## lines
 - [lines](/options/e/values-that-e-can-modify/lines)
+## log
+- [log](/options/e/values-that-e-can-modify/log)
 ## magic
 - [magic](/options/e/values-that-e-can-modify/magic)
 ## pdb

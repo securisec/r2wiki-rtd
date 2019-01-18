@@ -16,7 +16,6 @@ Usage: a[abdefFghoprxstc] [...]
 - [ `aa[?]` analyze all (fcns + bbs) (aa0 to avoid sub renaming)](/options/a/aa)
 - [ `ab [hexpairs]` analyze bytes](/options/a/ab)
 	- `ab` is not called `a8`
-- `ac [cycles]` analyze which op could be executed in [cycles]
 - [ `ad[?]` analyze data trampoline (wip)](/options/a/ad)
 - `ad [from] [to]` analyze data pointers to (from-to)
 - [ `ae[?] [expr]` analyze opcode eval expression (see ao)](/options/a/ae)

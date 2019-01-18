@@ -38,5 +38,6 @@ Usage: ah[lba-]Analysis Hints
   - jzset asm.syntax=jz for this opcode  (null)
 - `ahs 4` set opcode size=4
 - `ahS jz` set asm.syntax=jz for this opcode
+- `aht call`           change opcode type (see aht?)
 
 <p hidden>ah? ah ah. ah- ah* aha ahb ahc ahe ahf ahh ahi ahj aho ahp ahs ahS</p>

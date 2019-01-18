@@ -201,6 +201,7 @@ pages:
       - io: options/e/values-that-e-can-modify/io.md
       - key: options/e/values-that-e-can-modify/key.md
       - lines: options/e/values-that-e-can-modify/lines.md
+      - lines: options/e/values-that-e-can-modify/log.md
       - magic: options/e/values-that-e-can-modify/magic.md
       - pdb: options/e/values-that-e-can-modify/pdb.md
       - prj: options/e/values-that-e-can-modify/prj.md

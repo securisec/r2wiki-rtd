@@ -39,6 +39,7 @@ Usage: ?[?[?]] expression
 - `?h [str]` calculate hash for given string
 - `?i`   can be used to pass stdin input
 - `?i[ynmkp] arg` prompt for number or Yes,No,Msg,Key,Path and store in $$?
+- `?j arg`                           same as '? num' but in JSON
 - `?ik` press any key input dialog
 - `?im message` 🚀 show message centered in screen [asciinema](https://asciinema.org/a/vmSYaPY9RJfssBpN8o6JS2F6K)
 - `?in prompt` noyes input prompt

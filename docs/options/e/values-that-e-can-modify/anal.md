@@ -28,6 +28,7 @@
 - `anal.hpskip` Skip `mov reg, reg` and `lea reg, [reg] at the beginning of functions _Default is false_
 -  `anal.in` Specify search boundaries for analysis _Default is io.maps_
 - `anal.jmpabove` Jump above function pointer _Default is true_
+-  `anal.jmpmid` Continue analysis after jump to middle of instruction (x86 only) _Default is true_
 - `anal.jmpref` Create references for unconditional jumps _Default is true_
 - `anal.jmptbl` Analyze jump tables in switch statements _Default is true_
   - > `anal.jmptbl` _Helps in analyzing jump tables. Creates a new flags called switch and jmptbl_

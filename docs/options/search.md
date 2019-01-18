@@ -50,6 +50,7 @@ Use io.va for searching in non virtual addressing spaces
 - [ `/r[erwx][?] sym.printf` analyze opcode reference an offset (/re for esil)](search/r)
 
 - [ `/R [grepopcode]` search for matching ROP gadgets, semicolon-separated](search/capr)
+- `/s[*] [threshold]`       find sections by grouping blocks with similar entropy
 
 - `/v[j1248] value` look for an `cfg.bigendian` 32bit value
 - `/V[j1248] min max` look for an `cfg.bigendian` 32bit value in range

@@ -1,8 +1,6 @@
 <!-- TITLE: Resources -->
 
 # Resources
-## Book
-[radare2 book](https://radare.gitbooks.io/radare2book/)
 
 - [radare vs ida vs gdb](https://docs.google.com/spreadsheets/d/1GxOcKKrtB1bs8pCyPCelQUKwwAQTBw1x8LaavJGJtFI/edit?usp=sharing)
 	- > Spreadsheet describing different shortcuts and keys between r2, ida and gdb 
@@ -31,10 +29,6 @@
 - [Reversing with radare2 - Intro](https://insinuator.net/2016/08/reverse-engineering-with-radare2-intro/)
 - [Reversing with radare2 - part 2](https://insinuator.net/2016/08/reverse-engineering-with-radare2-part-2/)
 - [Reversing with radare2 - part 3](https://insinuator.net/2016/10/reverse-engineering-with-radare2-part-3/)
-- [Emulating Decryption Function With Radare2](http://www.mien.in/2018/08/15/emulating-decryption-function-with-radare2/)
-- [Decrypting Mirai Configuration With Radare2 (Part 1)](http://www.mien.in/2018/09/03/decrypting-mirai-configuration-with-radare2-part-1/)
-- [Decrypting Mirai Configuration With Radare2 (Part 2)](http://www.mien.in/2018/09/15/decrypting-mirai-configuration-with-radare2-part-2/)
-- [Reversing Bushido IOT Botnet by ZullSec](http://www.mien.in/tags/radare2/)
 
 ## Additional resources
 [Awesome radare2](https://github.com/dukebarman/awesome-radare2)

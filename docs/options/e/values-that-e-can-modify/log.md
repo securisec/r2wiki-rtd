@@ -1,0 +1,6 @@
+- `log.colors` Should the log output use colors (TODO)
+- `log.events` Remote HTTP server to sync events with
+- `log.file` Logging output filename / path
+- `log.level` Target log level/severity (0:SILLY, 1:DEBUG, 2:VERBOSE, 3:INFO, 4:WARN, 5:ERROR, 6:FATAL)
+- `log.srcinfo` Should the log output contain src info (filename:lineno)
+- `log.traplevel` Log level for trapping R2 when hit (0:SILLY, 1:VERBOSE, 2:DEBUG, 3:INFO, 4:WARN, 5:ERROR, 6:FATAL)

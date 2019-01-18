@@ -6,6 +6,7 @@
 - `http.bind` Server address _Default is localhost_
 - `http.browser` Command to open HTTP URLs _Default is open_
 - `http.cors` Enable CORS _Default is false_
+- `http.colon` Only accept the : command
 - `http.dietime` Kill server after N seconds with no client _Default is 0_
 - `http.dirlist` Enable directory listing _Default is false_
 - `http.homeroot` http home root directory _Default is ~/.config/radare2/www_

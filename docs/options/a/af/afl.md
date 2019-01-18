@@ -17,6 +17,7 @@
 	- > `aflq` only returns the offsets of all the functions
 - `aflqj`   list functions in json quiet mode
 - `afl+`   print sum of sizes of all functions
+- `aflm`   list functions in makefile style (af@@=`aflm~0x`)
 - `afls`   sort function list by address
 
 <p hidden>afl aflc aflj afll aflq aflqj afls</p>

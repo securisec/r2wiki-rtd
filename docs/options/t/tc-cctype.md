@@ -4,6 +4,7 @@
 
 - `tc` List all loaded structs
 - `tc [cctype]` Show convention rules for this type
+- `tc`   List all loaded types in C output format
 - `tc=([cctype])` Select (or show) default calling convention
 - `tc-[cctype]` TODO: remove given calling convention
 - `tc+[cctype] ...` TODO: define new calling convention
