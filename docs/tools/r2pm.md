@@ -73,7 +73,7 @@ DESCRIPTION
      -u, uninstall pkgname
                  Uninstall a package
 
-     -gu, global-install pkgname
+     -gu, global-uninstall pkgname
                  Uninstall a package from the system directory
 
      -l, list    List installed packages
